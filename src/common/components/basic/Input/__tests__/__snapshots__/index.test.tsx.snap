@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input onChange Event 1`] = `
+<DocumentFragment>
+  <input
+    class="ant-input"
+    type="text"
+    value="test value"
+  />
+</DocumentFragment>
+`;
+
+exports[`Input test trim 1`] = `
+<DocumentFragment>
+  <input
+    class="ant-input"
+    type="text"
+    value=""
+  />
+</DocumentFragment>
+`;

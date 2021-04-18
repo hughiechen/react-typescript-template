@@ -1,0 +1,41 @@
+@import '~antd/lib/style/themes/default.less';
+@import '~variables';
+
+.title {
+  padding: 20px 21px 21px 13px;
+  color: @text-color-secondary-dark;
+  border-bottom: 1px solid @menu-item-border-color;
+}
+
+.fullOver {
+  overflow-y: auto;
+  height: 100%;
+}
+
+.customMenu {
+  padding: 17px 10px;
+  :global {
+    .ant-menu-dark .ant-menu-inline.ant-menu-sub {
+      box-shadow: none;
+      background: transparent;
+    }
+    .ant-menu-submenu-inline > .ant-menu-submenu-title .ant-menu-submenu-arrow {
+      right: 8px;
+    }
+    .ant-menu-inline .ant-menu-submenu-title {
+      padding-right: 18px;
+    }
+    .ant-menu-inline .ant-menu-submenu-title {
+      border-bottom: none;
+    }
+    .ant-menu-dark.ant-menu-inline .ant-menu-item {
+      border-bottom: none;
+      border-radius: 3px;
+      margin-bottom: 8px;
+    }
+
+    div[aria-expanded='true'].ant-menu-submenu-title {
+      background: transparent;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.title {
+  line-height: 1;
+  padding: 1px 0px;
+  display: flex;
+  align-items: center;
+  .titleText {
+    font-size: 16px;
+    position: relative;
+    margin-right: 1px;
+    &.verticalHighlight {
+      padding: 1px 8px;
+    }
+    &.verticalHighlight:before {
+      content: '';
+      position: absolute;
+      width: 3px;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      border-radius: 3px;
+      background-color: var(--primary-color);
+    }
+  }
+  .titleRight {
+    margin-left: auto;
+  }
+  &.fullLine {
+    padding: 8px 10px;
+    border-radius: var(--border-radius-base);
+    background-color: rgba(var(--table-header-bg), 0.8);
+  }
+}

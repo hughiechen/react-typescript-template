@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextArea onChange Event 1`] = `
+<DocumentFragment>
+  <textarea
+    class="ant-input"
+  >
+    test value
+  </textarea>
+</DocumentFragment>
+`;
+
+exports[`TextArea test trim 1`] = `
+<DocumentFragment>
+  <textarea
+    class="ant-input"
+  />
+</DocumentFragment>
+`;

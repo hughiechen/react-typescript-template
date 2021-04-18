@@ -1,0 +1,36 @@
+@import '~variables';
+
+.back {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  height: 50px;
+  font-size: 16px;
+  font-weight: bolder;
+  background: #fff;
+  box-shadow: @box-shadow;
+  z-index: 1;
+  & > span {
+    cursor: pointer;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 15px;
+    .backIcon {
+      color: var(--primary-color);
+      font-size: 18px;
+    }
+    .backText {
+      margin-left: 5px;
+    }
+  }
+}
+
+.disabled {
+  i {
+    color: var(--disabled-color);
+  }
+  color: var(--disabled-color);
+  & > span {
+    cursor: not-allowed;
+  }
+}

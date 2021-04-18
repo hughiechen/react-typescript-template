@@ -1,0 +1,6 @@
+src/**/*.less.d.ts
+src/**/__generated__
+src/**/assets
+src/**/__test__
+src/**/__tests__
+src/**/__globalMocks__

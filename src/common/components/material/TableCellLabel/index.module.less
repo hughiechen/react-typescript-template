@@ -1,0 +1,16 @@
+.tableCellLabel {
+  text-align: right;
+  & > span {
+    margin-left: auto;
+    &::after {
+      content: '';
+      display: inline-block;
+      width: 10px;
+      color: red;
+      position: relative;
+    }
+    &.required::after {
+      content: '*';
+    }
+  }
+}

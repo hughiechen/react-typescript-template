@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckboxGroup 选中：男 1`] = `
+<DocumentFragment>
+  <div
+    class="ant-checkbox-group checkbox"
+  >
+    <label
+      class="ant-checkbox-wrapper ant-checkbox-wrapper-checked ant-checkbox-group-item"
+    >
+      <span
+        class="ant-checkbox ant-checkbox-checked"
+      >
+        <input
+          checked=""
+          class="ant-checkbox-input"
+          type="checkbox"
+          value="1"
+        />
+        <span
+          class="ant-checkbox-inner"
+        />
+      </span>
+      <span>
+        男
+      </span>
+    </label>
+    <label
+      class="ant-checkbox-wrapper ant-checkbox-group-item"
+    >
+      <span
+        class="ant-checkbox"
+      >
+        <input
+          class="ant-checkbox-input"
+          type="checkbox"
+          value="2"
+        />
+        <span
+          class="ant-checkbox-inner"
+        />
+      </span>
+      <span>
+        女
+      </span>
+    </label>
+    <label
+      class="ant-checkbox-wrapper ant-checkbox-wrapper-disabled ant-checkbox-group-item"
+    >
+      <span
+        class="ant-checkbox ant-checkbox-disabled"
+      >
+        <input
+          class="ant-checkbox-input"
+          disabled=""
+          type="checkbox"
+          value="3"
+        />
+        <span
+          class="ant-checkbox-inner"
+        />
+      </span>
+      <span>
+        未知
+      </span>
+    </label>
+  </div>
+</DocumentFragment>
+`;

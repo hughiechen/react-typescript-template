@@ -1,0 +1,35 @@
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin: 16px 0;
+}
+
+.selected {
+  td {
+    background-color: rgba(var(--primary-color), 0.5);
+  }
+}
+
+.fixTable {
+  :global {
+    // NOTE: 重置 td th 上的相对定位，相对定位会造成内部的弹出类组件定位不准，antd3.x 没有相对定位属性
+    .ant-table-thead > tr > th,
+    .ant-table-tbody > tr > td,
+    .ant-table tfoot > tr > th,
+    .ant-table tfoot > tr > td {
+      position: static;
+    }
+    .ant-table-footer {
+      background: #fff;
+    }
+    // 解决rowSelection 选中后背景色半透明导致前后颜色合并加深
+    .ant-table-tbody > tr.ant-table-row-selected > td {
+      background: rgba(var(--primary-color), 0.3);
+    }
+    .ant-table-fixed-header {
+      box-shadow: 1px 1px 1px #ececec;
+    }
+  }
+}

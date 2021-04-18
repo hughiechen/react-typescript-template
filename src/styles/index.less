@@ -1,0 +1,25 @@
+@import './variables.less';
+
+// 引入默认全局样式
+body {
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+  font-family: PingFangSC-Regular, PingFang SC;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  /** 主色 */
+  --primary-color: @primary-color;
+  --primary-color2: fade(@primary-color, 20);
+
+  --border-color-base: fade(@primary-color, 20);
+  --table-header-bg: fade(@primary-color, 10);
+  --border-radius-base: @border-radius-base;
+  --error-color: @error-color;
+}

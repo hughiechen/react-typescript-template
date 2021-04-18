@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomTag green 1`] = `
+<DocumentFragment>
+  <span
+    class="customTag green"
+  >
+    标题
+  </span>
+</DocumentFragment>
+`;
+
+exports[`CustomTag title 1`] = `
+<DocumentFragment>
+  <span
+    class="customTag blue"
+  >
+    标题
+  </span>
+</DocumentFragment>
+`;

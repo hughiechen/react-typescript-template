@@ -1,0 +1,88 @@
+.root {
+  position: relative;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  min-width: 1000px;
+  min-height: 768px;
+  padding: 40px 0;
+  padding-top: 9.11%;
+  flex-direction: column;
+  align-items: center;
+  background:pink;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-clip: border-box;
+  background-origin: border-box;
+  background-position: left;
+}
+
+.box {
+  height: 416px;
+  margin-top: 36px;
+  background-clip: border-box;
+}
+
+.content {
+  width: 480px;
+  background: white;
+  padding: 40px 50px;
+}
+
+.link {
+  flex-shrink: 0;
+  color: --primary-color;
+  &:hover {
+    color: --primary-color !important;
+  }
+}
+
+.header {
+  width: 100%;
+  > h1 {
+    font-weight: 600;
+    margin: 0;
+  }
+
+  > a {
+    font-size: 16px;
+    line-height: 30px;
+    color: --primary-color;
+    text-decoration: underline;
+  }
+  margin-bottom: 24px;
+}
+
+
+.input,
+.commit,
+.form {
+  width: 100%;
+}
+
+.form {
+  margin-top: 10px;
+}
+
+.retrievePwd {
+  margin-top: 24px;
+}
+
+.captcha {
+  width: 124px;
+  height: 40px;
+  border: 1px solid #d9dbdc;
+  cursor: pointer;
+}
+
+.loginBtn {
+  width: 120px;
+  text-align: center;
+}
+
+.loginBtn:lang(en-US) {
+  width: 190px;
+  text-align: center;
+}
+
+//.foo[lang ="en-US"]

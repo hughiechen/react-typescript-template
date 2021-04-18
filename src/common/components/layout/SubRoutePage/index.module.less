@@ -1,0 +1,38 @@
+.radioButton {
+  min-width: 120px;
+  text-align: center;
+  font-size: 16px;
+  &.bold {
+    font-weight: bold;
+  }
+}
+
+.left {
+  flex: 1;
+  overflow: auto;
+}
+
+.radioGroup {
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 1800px) {
+  .small {
+    .radioButton {
+      min-width: unset;
+      padding: 0 10px;
+    }
+  }
+}
+
+.noHeaderLine {
+  border-bottom: 0px !important;
+}
+
+.top0 {
+  padding-top: 0;
+}
+
+.noPadding {
+  padding: 0 !important;
+}

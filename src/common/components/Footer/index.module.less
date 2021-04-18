@@ -1,0 +1,21 @@
+@flex-row: {
+  display: flex;
+  flex-direction: row;
+};
+
+.wrap {
+  padding: 16px;
+  width: 100%;
+}
+.left {
+  @flex-row();
+  justify-content: flex-start;
+}
+.center {
+  @flex-row();
+  justify-content: center;
+}
+.right {
+  @flex-row();
+  justify-content: flex-end;
+}

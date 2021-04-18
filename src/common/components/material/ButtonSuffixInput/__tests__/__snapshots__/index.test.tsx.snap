@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonSuffixInput buttonDisabled 1`] = `
+<DocumentFragment>
+  <div
+    class="captchaButtonContainer"
+  >
+    <input
+      class="ant-input"
+      type="text"
+      value=""
+    />
+    <button
+      class="ant-btn ant-btn-primary ant-btn-sm ant-btn-background-ghost captchaButton"
+      disabled=""
+      type="button"
+    >
+      <span>
+        按 钮
+      </span>
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`ButtonSuffixInput onClick 1`] = `
+<DocumentFragment>
+  <div
+    class="captchaButtonContainer"
+  >
+    <input
+      class="ant-input"
+      type="text"
+      value=""
+    />
+    <button
+      class="ant-btn ant-btn-primary ant-btn-sm ant-btn-background-ghost captchaButton"
+      disabled=""
+      type="button"
+    >
+      <span>
+        按 钮
+      </span>
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`ButtonSuffixInput should support maxLength 1`] = `
+<DocumentFragment>
+  <div
+    class="captchaButtonContainer"
+  >
+    <input
+      class="ant-input"
+      maxlength="3"
+      type="text"
+      value=""
+    />
+    <button
+      class="ant-btn ant-btn-primary ant-btn-sm ant-btn-background-ghost captchaButton"
+      type="button"
+    >
+      <span>
+        按 钮
+      </span>
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`ButtonSuffixInput trim 1`] = `
+<DocumentFragment>
+  <div
+    class="captchaButtonContainer"
+  >
+    <input
+      class="ant-input"
+      type="text"
+      value="你好"
+    />
+    <button
+      class="ant-btn ant-btn-primary ant-btn-sm ant-btn-background-ghost captchaButton"
+      type="button"
+    >
+      <span>
+        按 钮
+      </span>
+    </button>
+  </div>
+</DocumentFragment>
+`;

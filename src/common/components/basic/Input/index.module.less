@@ -1,0 +1,20 @@
+.transparent {
+  .deepTransparent();
+  * {
+    .deepTransparent();
+  }
+}
+
+.deepTransparent() {
+  background-color: transparent !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  &:hover,
+  &:active,
+  &:focus {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}

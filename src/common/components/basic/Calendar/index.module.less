@@ -1,0 +1,55 @@
+.calendar {
+  :global {
+    .ant-picker-date-panel,
+    .ant-picker-month-panel {
+      .ant-picker-body {
+        padding: 0;
+      }
+      .ant-picker-calendar-date {
+        margin: 0;
+        border-top: none !important;
+      }
+    }
+    // 日期选择
+    .ant-picker-date-panel {
+      .ant-picker-content {
+        border-collapse: separate;
+        border-spacing: 0;
+        thead > tr:first-child > th:first-child {
+          border-top-left-radius: var(--border-radius-base);
+        }
+        thead > tr:last-child > th:last-child {
+          border-top-right-radius: var(--border-radius-base);
+        }
+
+        thead tr th {
+          background-color: var(--table-header-bg);
+          padding: 6px;
+          text-align: center;
+          border-right: 1px solid var(--border-color-base);
+          border-top: 1px solid var(--border-color-base);
+          border-bottom: 1px solid var(--border-color-base);
+          &:first-child {
+            border-left: 1px solid var(--border-color-base);
+          }
+        }
+
+        .ant-picker-cell {
+          padding: 0px;
+          border-right: 1px solid var(--border-color-base);
+          border-bottom: 1px solid var(--border-color-base);
+          &:first-child {
+            border-left: 1px solid var(--border-color-base);
+          }
+        }
+      }
+    }
+
+    // 月份选择
+    .ant-picker-month-panel {
+      table tbody tr:first-child td {
+        border-top: 1px solid var(--border-color-base);
+      }
+    }
+  }
+}

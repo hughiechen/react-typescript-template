@@ -1,0 +1,44 @@
+.timeMultipleRangePicker {
+  display: inline-block;
+  .clearErrorStyle :global {
+    // 强制将错误的边框红色去除
+    .ant-time-picker-input {
+      border-color: @border-color-base;
+    }
+    .ant-time-picker-input:not([disabled]):hover {
+      border-color: @border-color-base;
+    }
+  }
+  & > li {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    & > div {
+      flex: 1;
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: center;
+      justify-content: space-between;
+      & > span {
+        color: var(--disabled-color);
+      }
+    }
+    & > span {
+      margin-left: 5px;
+      width: 30px;
+      height: 30px;
+      border: 1px solid @border-color-base;
+      border-radius: 3px;
+      text-align: center;
+      line-height: 30px;
+      color: var(--primary-color);
+      cursor: pointer;
+      user-select: none;
+      &.disabled {
+        background-color: var(--input-disabled-bg);
+        border-color: var(--disabled-color);
+        color: var(--disabled-color);
+      }
+    }
+  }
+}

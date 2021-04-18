@@ -1,0 +1,34 @@
+.shortMarginBottom {
+  &:global(.ant-form-item) {
+    margin-bottom: 5px;
+    align-content: flex-start;
+  }
+  :global {
+    .ant-form-item-label {
+      padding: 0;
+      height: 32px;
+    }
+    .ant-form-item-control {
+      line-height: 1;
+    }
+  }
+}
+
+.customColon {
+  :global {
+    // 重置 * 号位置
+    .ant-form-item-required.ant-form-item-no-colon::after {
+      display: inline-block;
+      margin-right: 4px;
+      color: #f5222d;
+      font-size: 14px;
+      font-family: SimSun, sans-serif;
+      line-height: 1;
+      content: '*';
+    }
+    .ant-form-item-label > label.ant-form-item-required::before {
+      margin-right: 0px;
+      content: '';
+    }
+  }
+}

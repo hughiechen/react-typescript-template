@@ -1,0 +1,57 @@
+.modalContainer {
+  height: 760px;
+}
+.imageContainer {
+  position: relative;
+  overflow: hidden;
+  width: 650px;
+  height: 490px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    min-width: 300px;
+    min-height: 200px;
+    width: 100%;
+    display: inline-block;
+    transition: transform 0.3s;
+    user-select: none;
+  }
+}
+.switch {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 28px;
+  width: 28px;
+  &:hover {
+    color: var(--primary-color);
+  }
+  &.disabled {
+    cursor: not-allowed;
+    color: #ddd;
+    &:hover {
+      color: #ddd;
+    }
+  }
+}
+.previewOperate {
+  display: flex;
+  justify-content: center;
+  margin-top: 9px;
+  .icon {
+    margin: 0 48px 4px 48px;
+    svg {
+      width: 48px;
+      height: 48px;
+    }
+  }
+  .operateText {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+  }
+}

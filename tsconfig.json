@@ -1,0 +1,33 @@
+{
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "outDir": "build",
+    "module": "ESNext",
+    "target": "es6",
+    "jsx": "react",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "lib": ["ESNext", "dom"],
+    "sourceMap": true,
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "strict": true,
+    "importHelpers": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "rootDirs": ["src", "storybook"],
+    "paths": {
+      "@/*": ["src/*"],
+      "storybook/*": ["storybook/*"]
+    }
+  },
+  "include": ["src", "storybook"],
+  "exclude": ["node_modules", "build", "public", "src/**/__generated__", "src/**/__tests__", "src/**/__test__", "src/**/assets"]
+}

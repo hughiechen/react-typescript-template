@@ -1,0 +1,41 @@
+@green: #19a803;
+@red: #e00000;
+@gray: #999999;
+@blue: #003f8c;
+@yellow: #d28f00;
+@white: #ffffff;
+@purple: #800080;
+
+.customTag {
+  padding: 0px 5px;
+  border-radius: 20px;
+  white-space: nowrap;
+  &.red {
+    color: @red;
+    background-color: rgba(@red, 0.1);
+  }
+  &.green {
+    color: @green;
+    background-color: rgba(@green, 0.1);
+  }
+  &.blue {
+    color: @blue;
+    background-color: rgba(@blue, 0.1);
+  }
+  &.gray {
+    color: @gray;
+    background-color: rgba(@gray, 0.1);
+  }
+  &.yellow {
+    color: @yellow;
+    background-color: rgba(@yellow, 0.1);
+  }
+  &.purple {
+    color: @purple;
+    background-color: rgba(@purple, 0.1);
+  }
+  &.white {
+    background-color: rgba(@white, 0.2);
+    color: @white;
+  }
+}

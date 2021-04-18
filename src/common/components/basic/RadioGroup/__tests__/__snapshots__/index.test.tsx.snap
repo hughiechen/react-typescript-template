@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioGroup test RadioGroup 1`] = `
+<DocumentFragment>
+  <div
+    class="ant-radio-group ant-radio-group-outline radioBox"
+  >
+    <label
+      class="ant-radio-wrapper ant-radio-wrapper-checked"
+    >
+      <span
+        class="ant-radio ant-radio-checked"
+      >
+        <input
+          checked=""
+          class="ant-radio-input"
+          type="radio"
+          value="1"
+        />
+        <span
+          class="ant-radio-inner"
+        />
+      </span>
+      <span>
+        男
+      </span>
+    </label>
+    <label
+      class="ant-radio-wrapper"
+    >
+      <span
+        class="ant-radio"
+      >
+        <input
+          class="ant-radio-input"
+          type="radio"
+          value="2"
+        />
+        <span
+          class="ant-radio-inner"
+        />
+      </span>
+      <span>
+        女
+      </span>
+    </label>
+    <label
+      class="ant-radio-wrapper ant-radio-wrapper-disabled"
+    >
+      <span
+        class="ant-radio ant-radio-disabled"
+      >
+        <input
+          class="ant-radio-input"
+          disabled=""
+          type="radio"
+          value="3"
+        />
+        <span
+          class="ant-radio-inner"
+        />
+      </span>
+      <span>
+        保密
+      </span>
+    </label>
+  </div>
+</DocumentFragment>
+`;

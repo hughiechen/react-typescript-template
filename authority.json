@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Demo1",
+    "code": "Demo1",
+    "type": "Menu"
+  },
+  {
+    "name": "Demo2",
+    "code": "Demo2",
+    "type": "Menu",
+    "children": [
+      {
+        "name": "Demo3",
+        "code": "R_Demo3",
+        "type": "Page"
+      }]
+  }
+]

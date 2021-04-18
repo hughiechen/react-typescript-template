@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OperateButton click loading 1`] = `
+<DocumentFragment>
+  <a
+    class="operateButton"
+    data-testid="OperateButton"
+  >
+    点击
+    <div
+      class="ant-spin ant-spin-sm ant-spin-spinning spin"
+    >
+      <span
+        class="ant-spin-dot ant-spin-dot-spin"
+      >
+        <i
+          class="ant-spin-dot-item"
+        />
+        <i
+          class="ant-spin-dot-item"
+        />
+        <i
+          class="ant-spin-dot-item"
+        />
+        <i
+          class="ant-spin-dot-item"
+        />
+      </span>
+    </div>
+  </a>
+</DocumentFragment>
+`;
+
+exports[`OperateButton click no loading 1`] = `
+<DocumentFragment>
+  <a
+    class="operateButton"
+    data-testid="OperateButton"
+  >
+    点击
+    <div
+      class="ant-spin ant-spin-sm spin"
+    >
+      <span
+        class="ant-spin-dot ant-spin-dot-spin"
+      >
+        <i
+          class="ant-spin-dot-item"
+        />
+        <i
+          class="ant-spin-dot-item"
+        />
+        <i
+          class="ant-spin-dot-item"
+        />
+        <i
+          class="ant-spin-dot-item"
+        />
+      </span>
+    </div>
+  </a>
+</DocumentFragment>
+`;
+
+exports[`disabled=false 1`] = `
+<DocumentFragment>
+  <a
+    class="operateButton"
+    data-testid="OperateButton"
+    style="padding: 2px;"
+  >
+    <div
+      class="ant-spin ant-spin-sm spin"
+    >
+      <span
+        class="ant-spin-dot ant-spin-dot-spin"
+      >
+        <i
+          class="ant-spin-dot-item"
+        />
+        <i
+          class="ant-spin-dot-item"
+        />
+        <i
+          class="ant-spin-dot-item"
+        />
+        <i
+          class="ant-spin-dot-item"
+        />
+      </span>
+    </div>
+  </a>
+</DocumentFragment>
+`;
+
+exports[`disabled=true 1`] = `
+<DocumentFragment>
+  <a
+    class="operateButton operateButtonDisabled"
+    data-testid="OperateButton"
+  >
+    <div
+      class="ant-spin ant-spin-sm spin"
+    >
+      <span
+        class="ant-spin-dot ant-spin-dot-spin"
+      >
+        <i
+          class="ant-spin-dot-item"
+        />
+        <i
+          class="ant-spin-dot-item"
+        />
+        <i
+          class="ant-spin-dot-item"
+        />
+        <i
+          class="ant-spin-dot-item"
+        />
+      </span>
+    </div>
+  </a>
+</DocumentFragment>
+`;

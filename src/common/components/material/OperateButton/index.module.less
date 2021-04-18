@@ -1,0 +1,30 @@
+.operateButton {
+  position: relative;
+  .spin {
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+  }
+  &.operateButtonDisabled {
+    color: var(--disabled-color);
+    cursor: not-allowed;
+    &:hover {
+      color: var(--disabled-color);
+    }
+  }
+}
+.red {
+  color: red;
+  &:hover {
+    color: red;
+  }
+}
+
+// Container组件样式
+.marginRight a {
+  margin-right: 15px;
+}
+.marginHorizontal a {
+  margin-right: 7px;
+  margin-left: 7px;
+}

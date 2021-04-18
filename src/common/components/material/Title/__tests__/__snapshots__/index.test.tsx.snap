@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title className 1`] = `
+<DocumentFragment>
+  <div
+    class="title text"
+  >
+    <strong
+      class="titleText verticalHighlight"
+    >
+      标题
+    </strong>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Title fullLine 1`] = `
+<DocumentFragment>
+  <div
+    class="title fullLine"
+  >
+    <strong
+      class="titleText"
+    >
+      标题
+    </strong>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Title fullLine 2`] = `
+<DocumentFragment>
+  <div
+    class="title"
+  >
+    <strong
+      class="titleText verticalHighlight"
+    >
+      标题
+    </strong>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Title noStyle 1`] = `
+<DocumentFragment>
+  <div
+    class="title"
+  >
+    <strong
+      class="titleText"
+    >
+      标题
+    </strong>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Title title 1`] = `
+<DocumentFragment>
+  <div
+    class="title"
+  >
+    <strong
+      class="titleText verticalHighlight"
+    >
+      标题
+    </strong>
+  </div>
+</DocumentFragment>
+`;

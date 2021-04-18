@@ -1,0 +1,24 @@
+.radioBox {
+  border: 1px solid var(--border-color-base);
+  border-radius: var(--border-radius-base);
+  display: inline-flex;
+  label {
+    padding: 7px 12px;
+    text-align: center;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    span {
+      padding-right: 0px;
+    }
+  }
+  label + label {
+    border-left: 1px solid var(--border-color-base);
+  }
+
+  &.disabled {
+    background: var(--input-disabled-bg);
+  }
+}

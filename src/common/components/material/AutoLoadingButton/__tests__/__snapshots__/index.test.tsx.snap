@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AutoLoadingButton click 1`] = `
+<DocumentFragment>
+  <button
+    ant-click-animating-without-extra-node="false"
+    class="ant-btn"
+    type="button"
+  >
+    <span>
+      标 题
+    </span>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`AutoLoadingButton no Loading 1`] = `
+<DocumentFragment>
+  <button
+    ant-click-animating-without-extra-node="true"
+    class="ant-btn"
+    type="button"
+  >
+    <span>
+      按 钮
+    </span>
+  </button>
+</DocumentFragment>
+`;

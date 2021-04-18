@@ -1,0 +1,39 @@
+@readonlyColor: #333333 !important;
+
+.readonlyContainer {
+  input[disabled],
+  input[class*='disabled'],
+  textarea[disabled],
+  textarea[class*='disabled'] {
+    color: @readonlyColor;
+  }
+  :global {
+    // radio
+    .ant-radio-wrapper-disabled {
+      .ant-radio-inner::after {
+        background-color: @readonlyColor;
+      }
+      & > span:nth-child(2) {
+        color: @readonlyColor;
+      }
+    }
+    // checkbox
+    .ant-checkbox-wrapper-disabled {
+      .ant-checkbox-inner::after {
+        border-color: @readonlyColor;
+      }
+      & > span:nth-child(2) {
+        color: @readonlyColor;
+      }
+    }
+    // select
+    .ant-select-disabled,
+    .ant-select-disabled .ant-select-selection-item {
+      color: @readonlyColor;
+    }
+    // cascader
+    .ant-cascader-picker-disabled .ant-cascader-picker-label {
+      color: @readonlyColor;
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "Calendar": {
+    "周一": "周一",
+    "周二": "周二",
+    "周三": "周三",
+    "周四": "周四",
+    "周五": "周五",
+    "周六": "周六",
+    "周日": "周日",
+    "周Mo": "Monday",
+    "周Tu": "Tuesday",
+    "周We": "Wednesday",
+    "周Th": "Thursday",
+    "周Fr": "Friday",
+    "周Sa": "Saturday",
+    "周Su": "Sunday"
+  },
+  "Form": {
+    "defaultRequiredText": "该项为必填项",
+    "requiredText": "{label}为必填项"
+  },
+  "Modal": {
+    "defaultTitle": "温馨提示",
+    "ok": "确定",
+    "cancel": "取消"
+  },
+  "Table": {
+    "filterTitle": "筛选",
+    "filterConfirm": "确定",
+    "filterReset": "重置",
+    "filterEmptyText": "无筛选项",
+    "emptyText": "暂无数据",
+    "selectAll": "全选当页",
+    "selectInvert": "反选当页",
+    "selectionAll": "全选所有",
+    "sortTitle": "排序",
+    "expand": "展开行",
+    "collapse": "关闭行",
+    "triggerDesc": "点击降序",
+    "triggerAsc": "点击升序",
+    "cancelSort": "取消排",
+
+    "loading": "加载中...",
+    "totalCount": "共 {total} 条"
+  },
+  "Pagination": {
+    "items_per_page": "条/页",
+    "jump_to": "跳至",
+    "jump_to_confirm": "确定",
+    "next_3": "向后 3 页",
+    "next_5": "向后 5 页",
+    "next_page": "下一页",
+    "page": "页",
+    "prev_3": "向前 3 页",
+    "prev_5": "向前 5 页",
+    "prev_page": "上一页"
+  }
+}

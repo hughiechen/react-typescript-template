@@ -1,0 +1,102 @@
+.alignLeft {
+  text-align: left;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.alignRight {
+  text-align: right;
+}
+
+.bgYellow {
+  background-color: #fff7d7;
+}
+
+.bgWhite {
+  background-color: white;
+}
+
+.bgHeader {
+  // background-color: var(--table-header-bg);
+  background-color: var(--table-header-bg);
+}
+
+.bgRed {
+  background-color: rgba(255, 0, 0, 0.3);
+}
+
+.fixed {
+  table-layout: fixed;
+}
+
+.tableLayout {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+
+  .borderRadiusTop {
+    & > tr:first-child > th,
+    & > tr:first-child > td {
+      &:first-child {
+        border-top-left-radius: var(--border-radius-base);
+      }
+      &:last-child {
+        border-top-right-radius: var(--border-radius-base);
+      }
+    }
+  }
+
+  .borderRadiusBottom {
+    & > tr:last-child > th,
+    & > tr:last-child > td {
+      &:first-child {
+        border-bottom-left-radius: var(--border-radius-base);
+      }
+      &:last-child {
+        border-bottom-right-radius: var(--border-radius-base);
+      }
+    }
+  }
+
+  & > thead {
+    & > tr {
+      & > th {
+        padding: 6px;
+        border-top: 1px solid var(--border-color-base);
+        border-right: 1px solid var(--border-color-base);
+        &:first-child {
+          border-left: 1px solid var(--border-color-base);
+        }
+      }
+    }
+  }
+  & > tbody {
+    & > tr {
+      & > td {
+        padding: 6px;
+        border-bottom: 1px solid var(--border-color-base);
+        border-right: 1px solid var(--border-color-base);
+        &:first-child {
+          border-left: 1px solid var(--border-color-base);
+        }
+      }
+      &:first-child > td {
+        border-top: 1px solid var(--border-color-base);
+      }
+    }
+  }
+  & > tfoot {
+    & > tr {
+      & > td {
+        padding: 6px;
+        border-bottom: 1px solid var(--border-color-base);
+        border-right: 1px solid var(--border-color-base);
+        &:first-child {
+          border-left: 1px solid var(--border-color-base);
+        }
+      }
+    }
+  }
+}

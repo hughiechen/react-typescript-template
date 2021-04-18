@@ -1,0 +1,25 @@
+.formBlock {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+
+  &.solid {
+    border-bottom: 1px solid var(--border-color-base);
+    .borderLayout();
+  }
+
+  &.dashed {
+    border-bottom: 1px dashed var(--border-color-base);
+    .borderLayout();
+  }
+
+  .title {
+    margin-bottom: 10px;
+  }
+}
+
+.borderLayout() {
+  margin-left: -20px;
+  margin-right: -20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}

@@ -1,0 +1,51 @@
+@import '~variables';
+
+.antDesignLayoutHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background: transparent;
+  // box-shadow: @box-shadow;
+  .headerRight {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .headerLeft {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 10px;
+  }
+  .portWrapper {
+    margin-left: 20px;
+    height: 50px;
+    flex: 1;
+    flex-wrap: nowrap;
+  }
+  .headerRight1 {
+    display: flex;
+    height: 50px;
+    align-items: center;
+  }
+  .flex {
+    display: flex;
+  }
+  .itemWrapper {
+    padding: 0 15px;
+  }
+  .title {
+    cursor: pointer;
+    width: 200px;
+    font-size: 20px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: var(--primary-color);
+    text-align: justify;
+    line-height: 1.5;
+    padding-left: 7px;
+  }
+}

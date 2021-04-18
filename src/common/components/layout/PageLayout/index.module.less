@@ -1,0 +1,52 @@
+@import '~variables';
+
+.pageLayout {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  .pageLayoutContent {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 15px;
+    overflow: auto;
+    filter: drop-shadow(@box-shadow);
+    .pageLayoutRight {
+      flex: 1;
+      margin-left: 15px;
+      .pageLayoutColumn();
+    }
+  }
+  .loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 200px;
+  }
+}
+
+.pageLayoutLeft {
+  .pageLayoutColumn();
+}
+
+.pageLayoutColumn() {
+  align-self: stretch;
+  background-color: #fff;
+  border-radius: 3px;
+  overflow: auto;
+}
+
+@media print {
+  .pageLayout {
+    .pageLayoutContent {
+      padding: 0;
+      filter: none;
+    }
+  }
+}
